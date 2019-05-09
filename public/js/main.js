@@ -172,10 +172,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 // import NavHeader from './../layouts/NavHeader'
 // import Footer from './../layouts/Footer'
 // import { mapState, mapActions } from 'vuex'
@@ -1394,7 +1390,7 @@ var render = function() {
                 attrs: {
                   type: "text",
                   id: "rg",
-                  placeholder: "Digite o RNE/RNM/RG/CI"
+                  placeholder: "Digite o RNE/RNM/RG/CI cadastrado"
                 },
                 domProps: { value: _vm.inputs.cpf },
                 on: {
@@ -1405,10 +1401,8 @@ var render = function() {
                     _vm.$set(_vm.inputs, "cpf", $event.target.value)
                   }
                 }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group" }, [
+              }),
+              _vm._v(" "),
               _c("input", {
                 directives: [
                   {
@@ -1467,9 +1461,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "panel" }, [
       _c("h2", [_vm._v("Login")]),
       _vm._v(" "),
-      _c("p", [
-        _vm._v("Por favor digite seu RNE/RNM/RG/CI cadastrado e sua senha")
-      ])
+      _c("p", [_vm._v("Por favor digite sua conta de email e senha")])
     ])
   }
 ]
@@ -16455,8 +16447,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
-  // mode: 'history', #### REMOVE A HASHTAG DO VUE E DEIXA URL TODA ###
-  // fallback: true,  #### REMOVE A HASHTAG DO VUE E DEIXA URL TODA ###
+  // mode: 'history', 
+  // fallback: true, 
   routes: _js_routes__WEBPACK_IMPORTED_MODULE_2__["default"]
 });
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);

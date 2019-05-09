@@ -11,18 +11,22 @@
     
     
     
-                        <p>Por favor digite sua conta de email e senha</p>
+                        <p>Por favor digite seu RNE/RNM/RG/CI cadastrado e sua senha</p>
                     </div>
     
                     <form id="Login">
     
                         <div class="form-group">
     
-                            <input type="text" class="form-control" id="rg" placeholder="Digite o RNE/RNM/RG/CI cadastrado" v-model="inputs.cpf">
-                            <input type="text" class="form-control" id="senha" placeholder="Digite sua senha" v-model="inputs.senha">
+                            <input type="text" class="form-control" id="rg" placeholder="Digite o RNE/RNM/RG/CI" v-model="inputs.cpf">
+                            </div>
+                            <div class="form-group">
+<input type="text" class="form-control" id="senha" placeholder="Digite sua senha" v-model="inputs.senha">
+                            
+                            </div>
                             <!-- <input type="email" required v-model="inputs.email" class="form-control" id="inputEmail" placeholder="E-mail"> -->
     
-                        </div>
+                        
     
                         <!-- <div class="form-group">
     

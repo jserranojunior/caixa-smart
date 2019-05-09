@@ -10,8 +10,8 @@ import store from './store'
 import App from './components/App' 
 
 const router = new VueRouter({
-    mode: 'history', 
-    fallback: true, 
+    // mode: 'history', #### REMOVE A HASHTAG DO VUE E DEIXA URL TODA ###
+    // fallback: true,  #### REMOVE A HASHTAG DO VUE E DEIXA URL TODA ###
     routes,
 })
  
